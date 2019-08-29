@@ -1,13 +1,20 @@
 package demo;
 
+import java.util.Scanner;
+
 public class Client {
 
 	public static void main(String[] args) {
-		//第一步：创建scanner对象
+		Scanner scanner=new Scanner(System.in);
 		
-		//第二步：通过 name 变量接收用户输入的姓名
+		String name=scanner.nextLine();
 		
-		//第三步：输出欢迎信息，比如："你好，小铭"
+		// 第一步：使用if 分支结构判断输入是否为空，如果为空，提示用户："姓名不能为空"
+		
+		
+
+		System.out.println("你好，"+name);
+		scanner.close();
 
 	}
 
